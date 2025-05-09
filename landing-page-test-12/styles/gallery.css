@@ -1,0 +1,110 @@
+.gallery{
+    width: 100%;
+    max-width: 80rem;
+    padding-block: 2.5rem 2rem;
+    margin-inline: auto;
+
+    header{
+        text-align: center;
+
+    }
+
+    & header span{
+        font: 500 var(--text-sm)/1.5 var(--font-familyy);
+    }
+    & img{
+        width: 100%;
+        height: auto;
+    }
+
+    & .content{
+        margin-top: 2rem;
+        display: grid;
+        grid-template-areas:
+        "A B B"
+        "C C D";
+
+        gap: 2.5rem;
+
+        & figure:nth-child(1){
+            grid-area: A;
+        }
+        & figure:nth-child(2){
+            grid-area: B;
+        }
+        & figure:nth-child(3){
+            grid-area: C;
+        }
+        & figure:nth-child(4){
+            grid-area: D;
+        }
+    }
+    
+    & figure{
+        border-radius: 2.5rem;
+        overflow: hidden;
+        position: relative;
+        line-height: 0;
+
+        animation: image-appear linear backwards;
+        animation-timeline: view();
+        animation-range: 100px 350px;
+
+        &[data-delay]{
+            animation-range: 150px 300px;
+        }
+
+        & > img{
+            height: 25rem;
+            object-fit: cover;
+            transition: scale 500ms;
+
+        }
+        &:hover{
+            & > img{
+                scale: 1.1;
+            }
+
+            figcaption{
+                transform: translateY(0);
+            }
+        }
+    }
+
+    & figcaption{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 1.5rem 2rem;
+        justify-content: flex-end;
+        gap: .5rem;
+
+        transform: translateY(100%);
+        transition: transform 500ms;
+
+        font: 500 var(--text-sm)/1.5 var(--font-familyy);
+        color: white;
+
+        background: linear-gradient(
+            to top, 
+            rgb( 0 0 0 /0.64),
+            rgb( 0 0 0 / 0)
+        );
+    }
+
+    & figcaption img{
+        width: 2rem;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}   
+
+@keyframes image-appear{
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}

@@ -1,0 +1,89 @@
+.container{
+    display: grid;
+    max-width: 1366px;
+    height: 750px;
+    margin-inline: auto;
+    background-image: url(../assets/images/Background_Intro.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    border: 3px solid var(--gray-500);
+    border-bottom: none;
+}
+
+.avatar{
+    display: grid;
+    margin: auto;
+    margin-top: 120px;
+    height: 112px;
+    width: 112px;
+}
+.background{
+    width: 1040px;
+    margin-inline: auto;
+}
+h1{
+    font: var(--title-lg);
+    color: var(--gray-600);
+    text-align: center;
+}
+#small{
+    font: var(--text-sm);
+    color: var(--gray-400);
+    text-align: center;
+    margin-top: 20px;
+}
+#subtitle{
+    font: var(--text-sm);
+    color: var(--gray-500);
+    text-align: center;
+    margin-block: 56px 8px;
+    letter-spacing: 3px;
+}
+#martina{
+    color: var(--red);
+}
+.nav{
+    width: 754px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+button{
+    color: var(--gray-500);
+    font: var(--text-md);
+    background-color: var(--gray-300);
+    height: 40px;
+    padding-inline: 16px;
+    padding-block: 9px;
+    border-radius: 99px;
+    border: 0;
+    color: var(--gray-500);
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+}
+button:hover{
+    border: 2px solid var(--gray-500);
+}
+.buttom{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+}
+.html{
+    width: 20px;
+    height: 20px;
+}
+.css{
+    width: 27px;
+    height: 28px;
+    align-self: center;
+}
+.baixo{
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    margin-block: 94px 57px;
+}

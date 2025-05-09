@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --red:#E3646E;
+    --purple:#BB72E9;
+    --blue:#3996DB;
+    --green:#82BC4F;
+    --yellow:#EABD5F;
+
+    --gray-100:#0D0E11;
+    --gray-200:#16181D;
+    --gray-300:#292C34;
+    --gray-400:#878EA1;
+    --gray-500:#C0C4CE;
+    --gray-600:#E2E4E9;
+
+    --font-1:"Asap", sans-serif;
+    --title-lg: 700 56px/120% var(--font-1);
+    --title-md: 700 24px/120% var(--font-1);
+    --title-sm: 700 16px/120% var(--font-1);
+
+    --font-2:"Inconsolata", sans-serif;
+    --subtitle: 400 20px/120% var(--font-2);
+
+    --font-3:"Maven Pro", sans-serif;
+    --text-md: 400 16px/140% var(--font-3);
+    --text-sm: 400 14px/140% var(--font-3);
+}
+
+
+

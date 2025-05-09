@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+}
+body{
+    background-color: #29292E;
+}
+main{
+    background-color: #D9D9D9;
+    width: 1280px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.container{
+    margin: auto;
+    width: 1120px;
+}
+.cont-1{
+    margin: auto;
+    width: 1120px;
+    border-bottom: 8px solid #7e7c7c11;
+}
+h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    padding-bottom: 40px;
+    padding-top: 8px;
+    font-size: 36px;
+}
+img{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+    border-radius: 28px;
+}
+.viagem{
+    padding-top: 88px;
+    font-family:"Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E1624F;
+    font-size: 16px;
+}
+.sub{
+    color: #333333;
+    font-family:"Open Sans", sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+#sub-0{
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+#sub-1{
+    margin-bottom: 64px;
+
+}
+#sub-3{
+    margin-top: 64px;
+    font-family:"Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E1624F;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+h2{
+    font-family:"Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size:"Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+.subs{
+    color: #333333;
+    font-family:"Open Sans", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 26px;
+}
+li{
+    color: #0C51A7;
+    margin: 5px 0px 48px 0px;
+    list-style-position: inside;
+}
+li::marker{
+    color: black;
+}
+#pink{ margin-bottom: 5px;
+    color: #E5245E;
+}
+#orange{ margin-top: 5px;
+    color: #E95E10;
+}
+#purple{
+    margin-bottom: 5px;
+    color: #591B98;
+}
+#final{
+    color: #333333;
+    font-family:"Open Sans", sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+#footer{
+    font-family:"Alice", serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 48px;
+}

@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        z-index: -1;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}
+.content {
+    border-radius: 8px;
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+section {
+    width: 100%;
+    text-align: center;
+}
+.slogan{
+    h1{
+        color: white;
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        font-size: 70px;
+        font-weight: 900;
+        text-shadow: 3px 3px 3px black;
+    }
+    strong{
+        font-style: italic;
+        color: #35bd3a;
+        text-shadow: none;
+        font-weight: 900;
+        font-size: 75px;
+        text-shadow: 3px 3px 3px black;
+    }
+    h2{
+        font-family: "Roboto", sans-serif;
+        color: white;
+    }
+}
+form {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 500px;
+    max-height: 700px;
+    background-color: #0a223a;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    border-top: none;
+    h2{
+        font-size: 40px;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        margin-bottom: 30px;
+        padding-top: 40px;
+    }
+}
+form input {
+    padding: 20px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+form button {
+    background-color: #35bd3a;
+    width: 90%;
+    padding: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+form button:hover {
+    background-color: #45a049;
+}
+#sobre{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    h2{
+        font-family: "Roboto", sans-serif;
+        font-size: 50px;
+        color: black;
+        margin: 35px;
+        font-weight: 900;
+    }
+    strong{
+        color: red;
+        font-size: 60px;
+        font-weight: 900;
+    }
+}
+.sobre-sale{
+    background-color: #0a223a;
+    p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        margin: 20px;
+        text-shadow: 2px 2px 2px black;
+        color: white;
+        line-height: 50px;
+    }
+    img{
+        width: 40%;
+        border-radius: 10px;
+        margin: 40px 40px 50px 40px;
+    }
+    #sale-text{
+        color: white;
+        font-size: 45px;
+        font-weight: 900;
+        margin: 40px;
+        font-style: italic;
+        font-family: "Roboto", sans-serif;
+    }
+    span{
+        color: #35bd3a;
+    }
+}
+#recursos {
+    background-color: white;
+    .list-tools-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .list-tools-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .li-type-one{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .li-type-two{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+    h2{
+        font-family: "Roboto", sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        padding: 30px;
+        margin-bottom: 50px;
+        color: rgb(8, 8, 8);
+        letter-spacing: 2px;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        margin: 10px 0;
+        font-size: 35px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        width: 300px;
+    }
+    span{
+        font-size: 70px;
+        font-style: italic;
+        color: #0a223a;
+        text-shadow: 2px 2px 2px black;
+    }
+}
+.fa-search, .fa-wrench, .fa-laptop-code, .fa-bolt, .fa-chart-line, .fa-calendar-check {
+    color: black;
+    font-size: 70px; 
+}
+.fa-search:hover, .fa-wrench:hover, .fa-laptop-code:hover, .fa-bolt:hover, .fa-chart-line:hover, .fa-calendar-check:hover {
+    color: #35bd3a;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+#prazo {
+    background-color: #0a223a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px 50px 0px;
+    h2{
+        font-family: "Roboto", sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        color: white;
+        letter-spacing: 2px;
+        padding: 20px;
+    }
+    img{
+        width: 35%;
+        border-radius: 10px;
+        margin: 40px 
+    }
+    strong{
+        color: red;
+        font-size: 60px;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px black;
+        margin-top: 20px;
+        font-style: italic;
+    }   
+    p{
+        font-size: 40px;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        margin-bottom: 50px;
+    }
+    .five-days{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    span{
+        font-style: italic;
+        color: #35bd3a;
+        text-shadow: none;
+        font-weight: 900;
+        font-size: 55px;
+        text-shadow: 3px 3px 3px black;
+    }
+    .fa-trophy{
+        color: white;
+        font-size: 80px; 
+    }
+}
+#faq {
+    background-color: grey;
+    padding: 30px;
+    font-family: "Roboto", sans-serif;
+    h2{
+        font-family: "Roboto", sans-serif;
+        font-size: 70px;
+        font-weight: 900;
+        padding: 20px;
+        margin-bottom: 50px;
+        color: rgb(8, 8, 8);
+        letter-spacing: 2px;
+    }
+    .pergunta {
+        margin: 20px;
+        text-align: left;
+        width: 33.3%;
+        h3{
+            font-size: 30px;
+            padding: 10px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 500;
+            color: rgb(26, 24, 24);
+        }
+    }
+}
+.questions-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.questions-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.questions-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+@media (min-width: 350px) and (max-width: 767px) {
+    form{
+        display: none;
+    }
+    #inicio{
+        img{
+            display: none;
+        }
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        padding: 0;
+        background: url(src/escritorio-new.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .slogan{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        h1{
+            font-size: 40px;
+            padding-bottom: 20px;
+        }
+        strong{
+            font-size: 50px;
+        }
+        h2{
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+    }
+    #sobre{
+        #sale-text{
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+        }
+        img{
+            width: 90%;
+            padding: 30px 0;
+            margin: 0;
+        }
+    }
+    #recursos{
+        .list-tools-1{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        .list-tools-2{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    #prazo{
+        padding-bottom: 30px;
+        h2{
+            font-size: 30px;
+        }
+        strong{
+            font-size: 40px;
+        }
+        .five-days{
+            display: flex;
+            flex-direction: column;
+        }
+        p{
+            font-size: 30px;
+        }
+        span{
+            font-size: 35px;
+        }
+    }
+    #faq{
+        h2{
+            text-align: center;
+            font-size: 50px;
+        }
+        .pergunta{
+            padding: 0;
+            margin: 10px;
+            width: 100%;
+        }
+        .questions-one{
+            display: flex;
+            flex-direction: column;
+            h3{
+                font-size: 40px;
+            }
+            p{
+                font-size: 30px;
+            }
+        }
+        .questions-two{
+            display: flex;
+            flex-direction: column;
+            h3{
+                font-size: 40px;
+            }
+            p{
+                font-size: 30px;
+            }
+        }
+        .questions-three{
+            display: flex;
+            flex-direction: column;
+            h3{
+                font-size: 40px;
+            }
+            p{
+                font-size: 30px;
+            }
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 1300px){
+    form{
+        display: none;
+    }
+    #inicio{
+        img{
+            display: none;
+        }
+    }
+    .content{
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2{
+            color: white;
+            font-size: 20px;
+            padding-top: 20px;
+        }
+        background: url(src/escritorio-new.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .slogan{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        h1{
+            font-size: 40px;
+        }
+    }
+    #sobre{
+        #sale-text{
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+        }
+        img{
+            width: 70%;
+            padding: 30px 0;
+            margin: 0;
+        }
+    }
+    #recursos{
+        .list-tools-1{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        .list-tools-2{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    #prazo{
+        padding: 0px 30px 30px 30px;
+        h2{
+            font-size: 30px;
+        }
+        strong{
+            font-size: 40px;
+        }
+        .five-days{
+            display: flex;
+            flex-direction: column;
+        }
+        p{
+            font-size: 30px;
+        }
+        span{
+            font-size: 35px;
+        }
+        .text-five{
+            margin: 0px 180px;
+        }
+    }
+    #faq{
+        h2{
+            text-align: center;
+            font-size: 50px;
+        }
+        .pergunta{
+            padding: 0;
+            margin: 10px;
+            width: 100%;
+        }
+        .questions-one{
+            display: flex;
+            flex-direction: column;
+            h3{
+                font-size: 40px;
+            }
+            p{
+                font-size: 30px;
+            }
+        }
+        .questions-two{
+            display: flex;
+            flex-direction: column;
+            h3{
+                font-size: 40px;
+            }
+            p{
+                font-size: 30px;
+            }
+        }
+        .questions-three{
+            display: flex;
+            flex-direction: column;
+            h3{
+                font-size: 40px;
+            }
+            p{
+                font-size: 30px;
+            }
+        }
+    }
+}
+@media (min-width: 1850px){
+    #sobre{
+        h2{
+            padding: 30px;
+            margin-top: 60px;
+        }
+    }
+}
